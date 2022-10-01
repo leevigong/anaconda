@@ -6,3 +6,16 @@
 
 아나콘다 가상환경 활성화
 >>> conda activate 가상환경이름
+
+텐서플로우 설치
+>>> pip(=or conda) install tensorflow(==1.15)
+
+텐서플로우 버전 확인
+>>> import tensorflow as tf
+    tf.__version__
+    
+파이썬 버전 확인
+>>> python -V
+
+파이썬 종료
+>>> exit()
