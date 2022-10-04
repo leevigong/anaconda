@@ -29,3 +29,9 @@ for item in datas:
     else:
         newData.append(item)
 img.putdata(newData)
+
+ # 배경 제거하는데 걸린 시간
+    started = time.time()
+    elapsed = time.time() - started
+    print(f'it takes {elapsed} seconds for removing bg.')
+
