@@ -15,3 +15,17 @@ while True:
     if new_height == last_height:
         break
     last_height = new_height
+
+누끼따는거에 들어있던 코드,.
+
+
+img = Image.open('C:/Users/Daeun/종프/imgs/img1.png') 
+img = img.convert("RGBA")
+datas = img.getdata()
+newData = []
+for item in datas:
+    if item[0] == 255 and item[1] == 255 and item[2] == 255:
+        newData.append((255, 255, 255, 0))
+    else:
+        newData.append(item)
+img.putdata(newData)
