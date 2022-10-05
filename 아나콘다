@@ -1,13 +1,32 @@
-아나콘다 가상환경 목록 확인 
+# 아나콘다
+
+가상환경 목록 확인 
 >>> conda env list
 
-아나콘다 가상 환경 생성
+가상 환경 생성
 >>> conda create -n 가상환경이름 (python = 파이썬 버전)
-'''
-djdk
-'''
-아나콘다 가상환경 활성화
->>> conda activate 가상환경이름
+
+가상환경 비/활성화
+>>> conda de/activate 가상환경이름
+
+가상환경 복제
+>>> conda create --clone 복제할 가상환경 이름 -n 새 가상환경이름
+
+가상환경 삭제
+>>> conda env remove -n 가상환경이름
+
+가상환경에 설치된 패키지 리스트 조회
+>>> conda list
+
+# 패키지
+패키지 설치
+>>> conda install (-n 가상환경이름) 패키지이름
+
+패키지 업데이트
+>>> conda update 패키지이름
+
+패키지 삭제
+>>> conda remove -n 가상환경이름 패키지이름
 
 텐서플로우 설치
 >>> pip(=or conda) install tensorflow(==1.15)
