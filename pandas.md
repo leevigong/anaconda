@@ -4,7 +4,7 @@
 df = pd.read_csv('') 
 + encoding ='cp949' # 한글 안깨지게
 + header=None # 칼럼 초기화
-+ columns = [] # 칼럼명 지정
++ names = [] # 칼럼명 지정
 ```
 ### 파일 미리보기
 - 앞에서부터 5개 ``` df.head() ```
