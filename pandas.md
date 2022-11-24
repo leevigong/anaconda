@@ -1,3 +1,4 @@
+## 파일
 ### 데이터 파일 로드
 ```
 df = pd.read_csv('') 
@@ -8,3 +9,9 @@ df = pd.read_csv('')
 ``` df.head() ```
 - 뒤에서부터 5개
 ``` df.tail() ```
+
+## 인덱스 
+** 적용하려면 inplace = True 하기 **
+- 제거 ```df.style.hide_index() '''
+- 대체 ```df.set_index("인덱스 컬럼명") ```
+
