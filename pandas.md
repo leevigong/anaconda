@@ -25,3 +25,6 @@ __적용하려면 inplace = True 하기__
 - 전체 칼럼 출력 ``` df.columns ```
 - 특정 칼럼 값 확인 ``` df.['칼럼명'] ```
 - 칼럼명 변환 ``` df.columns = [] ```
+
+## 
+- 소수점 자리수 조절 ``` style.set_precision(4) ```
