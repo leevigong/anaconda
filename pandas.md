@@ -3,6 +3,8 @@
 ```
 df = pd.read_csv('') 
 + encoding ='cp949' # 한글 안깨지게
++ header=None # 칼럼 초기화
++ columns = [] # 칼럼명 지정
 ```
 ### 파일 미리보기
 - 앞에서부터 5개 ``` df.head() ```
@@ -17,9 +19,8 @@ df = pd.read_csv('')
 __적용하려면 inplace = True 하기__
 - 제거 ```df.style.hide_index() ```
 - 대체 ```df.set_index("인덱스 컬럼명") ```
-- 첫 행을 column으로 지정 ``` df1 = df.rename(columns=df.iloc[0]) 
-
-                              df2 = df2.drop(df.index[0]) ```
+- 첫 행을 column으로 지정 ``` df1 = df.rename(columns=df.iloc[0]) ```
+                          ``` df2 = df2.drop(df.index[0]) ```
 
 
 
