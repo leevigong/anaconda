@@ -12,6 +12,6 @@ df = pd.read_csv('')
 
 ## 인덱스 
 __적용하려면 inplace = True 하기__
-- 제거 ```df.style.hide_index() '''
+- 제거 ```df.style.hide_index() ```
 - 대체 ```df.set_index("인덱스 컬럼명") ```
 
