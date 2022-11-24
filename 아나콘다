@@ -28,6 +28,15 @@
 패키지 삭제
 >>> conda remove -n 가상환경이름 패키지이름
 
+# 기본패키지 
+conda install keras tensorflow theano
+conda install jupyter scipy numpy matplotlib
+conda install pandas seaborn scipy
+pip install scikit-learn
+
+# 오류 발생시 
+python -m pip install --upgrade pip 
+
 텐서플로우 설치
 >>> pip(=or conda) install tensorflow(==1.15)
 
