@@ -19,9 +19,7 @@ df = pd.read_csv('')
 __적용하려면 inplace = True 하기__
 - 제거 ```df.style.hide_index() ```
 - 대체 ```df.set_index("인덱스 컬럼명") ```
-- 첫 행을 column으로 지정 ``` df1 = df.rename(columns=df.iloc[0])   
-df2 = df2.drop(df.index[0])
-```
+- 첫 행을 column으로 지정 ``` df1 = df.rename(columns=df.iloc[0])  df2 = df2.drop(df.index[0]) ```
 
 ## 칼럼
 - 전체 칼럼 출력 ``` df.columns ```
