@@ -8,8 +8,8 @@ df = pd.read_csv('')
 ```
 ### 파일 저장하기
 ``` 
-pd.to_csv('')
-pd.to_excel('')
+df.to_csv('')
+df.to_excel('')
 ```
 ### 파일 미리보기
 - 앞에서부터 5개 ``` df.head() ```
