@@ -7,7 +7,8 @@ df = pd.read_csv('')
 + names = [] # 칼럼명 지정
 ```
 ### 파일 저장하기
-``` pd.to_csv('')
+``` 
+pd.to_csv('')
 pd.to_excel('')
 ```
 ### 파일 미리보기
