@@ -6,6 +6,10 @@ df = pd.read_csv('')
 + header=None # 칼럼 초기화
 + names = [] # 칼럼명 지정
 ```
+### 파일 저장하기
+``` pd.to_csv('')
+pd.to_excel('')
+```
 ### 파일 미리보기
 - 앞에서부터 5개 ``` df.head() ```
 - 뒤에서부터 5개 ``` df.tail() ```
